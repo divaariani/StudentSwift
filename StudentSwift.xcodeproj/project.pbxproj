@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440C34962CDB0BC400F25D2A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C34952CDB0BC400F25D2A /* LoginView.swift */; };
+		440C34982CDB0C4900F25D2A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C34972CDB0C4800F25D2A /* LoginModel.swift */; };
 		44915DF92CD9FE3000EA44FD /* StudentSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44915DF82CD9FE3000EA44FD /* StudentSwiftApp.swift */; };
 		44915DFB2CD9FE3000EA44FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44915DFA2CD9FE3000EA44FD /* ContentView.swift */; };
 		44915DFD2CD9FE3100EA44FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44915DFC2CD9FE3100EA44FD /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		440C34952CDB0BC400F25D2A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		440C34972CDB0C4800F25D2A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		44915DF52CD9FE3000EA44FD /* StudentSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44915DF82CD9FE3000EA44FD /* StudentSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSwiftApp.swift; sourceTree = "<group>"; };
 		44915DFA2CD9FE3000EA44FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				44915DFA2CD9FE3000EA44FD /* ContentView.swift */,
 				44915DFC2CD9FE3100EA44FD /* Assets.xcassets */,
 				44915E222CDA03B100EA44FD /* Extension.swift */,
+				440C34952CDB0BC400F25D2A /* LoginView.swift */,
+				440C34972CDB0C4800F25D2A /* LoginModel.swift */,
 			);
 			path = StudentSwift;
 			sourceTree = "<group>";
@@ -248,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440C34982CDB0C4900F25D2A /* LoginModel.swift in Sources */,
 				44915E232CDA03B100EA44FD /* Extension.swift in Sources */,
 				44915DFB2CD9FE3000EA44FD /* ContentView.swift in Sources */,
+				440C34962CDB0BC400F25D2A /* LoginView.swift in Sources */,
 				44915DF92CD9FE3000EA44FD /* StudentSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
